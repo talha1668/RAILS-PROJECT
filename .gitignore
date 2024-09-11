@@ -1,0 +1,50 @@
+# Ignore bundler config
+/.bundle
+
+# Ignore cache, log, temp files
+/log/*
+/tmp/*
+/pid
+*.pid
+
+# Ignore system-generated files
+*.swp
+*~
+.project
+.DS_Store
+.ruby-gemset
+.ruby-version
+/coverage/
+/spec/reports/
+/test/tmp
+/test/version_snapshots/
+
+# Ignore database config file (customize if needed)
+config/database.yml
+
+# Ignore secrets config
+config/secrets.yml
+
+# Ignore node_modules and Yarn files
+/node_modules/
+/yarn-error.log
+
+# Ignore precompiled assets and other files in public folder
+/public/assets
+/public/packs
+/public/packs-test
+
+# Ignore vendor files
+/vendor/bundle
+/vendor/cache
+
+# Ignore Spring files
+.spring/
+/.sprockets-manifest*
+
+# Ignore byebug history
+.byebug_history
+
+# Ignore dotenv environment variables
+.env
+.env.*
